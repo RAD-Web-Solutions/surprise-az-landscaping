@@ -262,6 +262,7 @@ form{
     justify-content: center;
     align-items: start;
     margin-top: 110px;
+    padding-bottom: 50px;
 }
 
 .story{
@@ -331,4 +332,66 @@ form{
     font-weight: 800;
     color: #000000;
     line-height: 1;
+}
+
+.button-form:hover{
+    transform: scale(1.25);
+    transition: 0.5s ease-in-out;
+}
+
+/* Service Section */
+
+.service-section{
+    background-color: rgba(98,190,30,0.04);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-pic{
+    width: 604.19px;
+    height: 761.38px;
+}
+
+.service{
+    width: 535.8px;
+    height: 761.38px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+
+#service{
+    font-size: 16px;
+    font-weight: 300;
+    color: #89b455;
+    letter-spacing: 2.8px;
+    width:475.8px;
+    height: 16px;
+}
+
+#h2-we{
+    color: #000000;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.2em;
+}
+
+#strong-offer{
+    font-weight: bolder;
+}
+
+#ul li{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.service-content{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+
 }
