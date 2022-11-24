@@ -26,7 +26,7 @@ time, mark, audio, video {
 
 .top{
     background: linear-gradient(#2e5b3d69, #2e5b3d77), url("background.jpg");
-    height: 900px;
+    height: 1000px;
     width: 100%;
     background-size: cover;
     background-position: center;
@@ -163,8 +163,8 @@ nav ul li a:hover{
 }
 
 .column-box-1{
-    height: 200px;
-    width: 350px;
+    height: 263.38px;
+    width: 326.66px;
     background-color: #1A3A28;
     color: white;
     display: flex;
@@ -178,8 +178,8 @@ nav ul li a:hover{
 }
 
 .column-box-2{
-    height: 200px;
-    width: 350px;
+    height: 263.38px;
+    width: 326.66px;
     background-color: #6E3719;
     color: white;
     display: flex;
@@ -194,4 +194,141 @@ nav ul li a:hover{
 .column-box-img{
     height: 74px;
     width: 74px;
+}
+
+.column-box-1:hover{
+    background-color: #9ec012;
+    transition: 0.5s ease-in-out;
+}
+
+.column-box-2:hover{
+    background-color: #9ec012;
+    transition: 0.5s ease-in-out;
+}
+
+/* Story and Form Section */
+
+form{
+    display: block;
+    width: 495px;
+    height: 832px;
+    background-color:#6E3719;
+    border-radius: 10px;
+    padding: 20px;
+    border: 3px solid #9ec012;
+}
+
+#form-heading{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.check{
+    width: 30px;
+    height: 20px;
+}
+
+.form-label{
+    font-size: 15px;
+    font-weight: 200px;
+    color: #FFFFFF;
+}
+
+.form-name{
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.text-form{
+    width: 400px;
+    height: 30px;
+}
+
+.button-form{
+    width: 120px;
+    height: 40px;
+    color:white;
+    font-size: 15px;
+    background-size: 200%;
+    background-color: #9ec012;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.story-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    margin-top: 110px;
+}
+
+.story{
+    width: 495px;
+    height: 953px;
+}
+
+#story{
+    width: 425px;
+    height: 1px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 2.8px;
+    color: #89b455;
+}
+
+#surprise{
+    width: 425px;
+    height: 46px;
+    margin-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #000000;
+}
+
+#story-content {
+    width: 425px;
+    height: 708px;
+    margin-bottom: 20px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #000000;
+}
+
+#btn-call{
+    width: 405px;
+    height: 48px;
+}
+
+.btn-call{
+    height: 50px;
+    width: 150px;
+    border-radius: 50px;
+    border: 3px solid #9ec012;
+    background-color: #1a3a28;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.btn-call:hover{
+    background-color: #1a3a2800;
+    border: 3px solid #6E3719;
+    transition: 0.5s ease-in-out;
+    color: #000000;
+}
+
+.form-heading{
+    width: 495px;
+    height: 28px;
+    font-size: 28px;
+    font-weight: 800;
+    color: #000000;
+    line-height: 1;
 }
