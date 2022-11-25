@@ -150,7 +150,7 @@ nav ul li a:hover{
 /* Column Boxes */
 
 .column-boxes{
-    height: 100%;
+    height: 273px;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -164,7 +164,7 @@ nav ul li a:hover{
 
 .column-box-1{
     height: 263.38px;
-    width: 326.66px;
+    width: 380px;
     background-color: #1A3A28;
     color: white;
     display: flex;
@@ -179,7 +179,7 @@ nav ul li a:hover{
 
 .column-box-2{
     height: 263.38px;
-    width: 326.66px;
+    width: 380px;
     background-color: #6E3719;
     color: white;
     display: flex;
@@ -230,7 +230,7 @@ form{
 }
 
 .form-label{
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 200px;
     color: #FFFFFF;
 }
@@ -241,8 +241,8 @@ form{
 }
 
 .text-form{
-    width: 400px;
-    height: 30px;
+    width: 460px;
+    height: 40px;
 }
 
 .button-form{
@@ -256,6 +256,13 @@ form{
     border-radius: 5px;
 }
 
+#button-form{
+    width: 460px;
+    height: 40px;
+    display: flex;
+    justify-content: end;
+}
+
 .story-form{
     display: flex;
     flex-direction: row;
@@ -263,6 +270,8 @@ form{
     align-items: start;
     margin-top: 110px;
     padding-bottom: 50px;
+    height: 1000px;
+    width: 100%;
 }
 
 .story{
@@ -274,7 +283,7 @@ form{
     width: 425px;
     height: 1px;
     margin-bottom: 20px;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 300;
     letter-spacing: 2.8px;
     color: #89b455;
@@ -293,7 +302,7 @@ form{
     width: 425px;
     height: 708px;
     margin-bottom: 20px;
-    font-size: 17px;
+    font-size: 19px;
     font-weight: 400;
     line-height: 30px;
     color: #000000;
@@ -301,7 +310,10 @@ form{
 
 #btn-call{
     width: 405px;
-    height: 48px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .btn-call{
@@ -347,11 +359,13 @@ form{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    padding-top: 1px;
 }
 
 .service-pic{
-    width: 604.19px;
+    width: 550px;
     height: 761.38px;
+    padding-left: 16px;
 }
 
 .service{
@@ -359,12 +373,13 @@ form{
     height: 761.38px;
     display: flex;
     justify-content: start;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
+    padding-top: 50px;
 }
 
 #service{
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 300;
     color: #89b455;
     letter-spacing: 2.8px;
@@ -377,21 +392,134 @@ form{
     font-size: 36px;
     font-weight: bold;
     line-height: 1.2em;
+    padding-top: 10px;
 }
 
 #strong-offer{
     font-weight: bolder;
+    font-size: 20px;
 }
 
 #ul li{
-    font-size: 16px;
+    font-size: 19px;
     font-weight: 400;
     color: #000000;
+    line-height: 25px;
+}
+
+#ul{
+    padding-left: 40px;
+
 }
 
 .service-content{
-    font-size: 16px;
+    font-size: 19px;
     font-weight: 400;
     color: #000000;
+    line-height: 25px;
+}
 
+/* Service Columns */
+
+.service-columns{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    z-index: 1;
+    background-color: rgba(98,190,30,0.04);
+    height: 298px;
+    width: 100%;
+}
+
+.sc-1{
+    width: 283px;
+    height: 288px;
+    text-align: center;
+    background-color: #1A3A28;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    margin-right: 2px;
+    
+}
+
+.sc-2{
+    width: 283px;
+    height: 288px;
+    text-align: center;
+    background-color: #6E3719;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    margin-right: 2px;
+    
+}
+
+.sc-pic{
+    width: 223px;
+    height: 165px;
+    padding-bottom: 5px;
+}
+
+.content-h3 a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.sc-1:hover{
+    background-color: #9ec012;
+    transition: 0.5s ease-in-out;
+}
+
+.sc-2:hover:hover{
+    background-color: #9ec012;
+    transition: 0.5s ease-in-out;
+}
+
+/* Button Section */
+
+.button-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 103px;
+    width: 100%;
+}
+
+/* Quote Section */
+
+.quote-sec{
+    background: linear-gradient(#000000b0, #0000007a), url("splash.jpg"); 
+    width: 100%;
+    height: 371px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#quote-h2{
+    font-size: 29px;
+    color: #ffffff;
+    stroke: #000;
+}
+
+#quote-h3{
+    color: #ffffff;
+    font-size: 23px;
+    font-weight: 300;
+    letter-spacing: 2.8px;
+    text-align: center;
+}
+
+.quote-h2{
+    margin-bottom: 20px;
 }
