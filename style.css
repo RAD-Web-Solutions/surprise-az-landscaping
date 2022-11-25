@@ -1,7 +1,3 @@
-html,body {
-    font-family:"Roboto Condensed",Sans-serif;
-}
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,6 +16,7 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
+    font-family:"Roboto Condensed",Sans-serif;
 }
 
 /*This is where your work starts */
@@ -293,7 +290,7 @@ form{
     width: 425px;
     height: 46px;
     margin-bottom: 20px;
-    font-size: 36px;
+    font-size: 34px;
     font-weight: bold;
     color: #000000;
 }
@@ -302,7 +299,7 @@ form{
     width: 425px;
     height: 708px;
     margin-bottom: 20px;
-    font-size: 19px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 30px;
     color: #000000;
@@ -494,7 +491,7 @@ form{
 /* Quote Section */
 
 .quote-sec{
-    background: linear-gradient(#000000b0, #0000007a), url("splash.jpg"); 
+    background: linear-gradient(#00000085, #0000007a), url("splash.jpg"); 
     width: 100%;
     height: 371px;
     position: relative;
@@ -514,7 +511,7 @@ form{
 
 #quote-h3{
     color: #ffffff;
-    font-size: 23px;
+    font-size: 19px;
     font-weight: 300;
     letter-spacing: 2.8px;
     text-align: center;
@@ -522,4 +519,67 @@ form{
 
 .quote-h2{
     margin-bottom: 20px;
+}
+
+/* Why Choose Us Section */
+
+.choose-us-section{
+    width: 100%;
+    height: 660px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.c-u-heading{
+    height: 112px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#c-u-heading{
+    color: #000000;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.c-u-column-1{
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+}
+
+.c-u-column-box-1{
+    display: flex;
+    flex-direction: row;
+    width: 360px;
+    height: 234px;
+}
+
+.c-u-column-2{
+    display: flex;
+    flex-direction: row;
+}
+
+.c-u-column-box-2{
+    display: flex;
+    flex-direction: row;
+    width: 360px;
+    height: 234px;
+}
+
+.c-u-h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #9EC012;
+    margin-bottom: 20px;
+}
+
+.c-u-p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
 }
