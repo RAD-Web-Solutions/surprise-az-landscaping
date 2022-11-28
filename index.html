@@ -7,27 +7,25 @@
     <link rel="stylesheet" href="style.css">
     <title>Surprise AZ Landscaping</title>
     <script src="https://kit.fontawesome.com/0c9e1858e3.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
 </head>
 <body>
     
     <!-- Top Class -->
-
-<section> 
-<div class="top">   
-    <header>
-        <div class="logo-img">
-        <img id="logo-img" src="https://surpriseazlandscaping.net/wp-content/uploads/2022/04/Dark-Green-Circle-Landscaping-Logo-768x768.png.webp"></div>
-        <nav>
-            <ul>
+<header class=header id="myHeader">
+    <div class="logo-img">
+    <img id="logo-img" src="https://surpriseazlandscaping.net/wp-content/uploads/2022/04/Dark-Green-Circle-Landscaping-Logo-768x768.png.webp"></div>
+    <nav>
+        <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Services</a></li>
                 <li><a href="#">Blog</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Contact</a></li>
                 <li><a href="#">Location</a></li>
-            </ul>
-        </nav>
-        <div class="num-hours">
+        </ul>
+    </nav>
+    <div class="num-hours">
             <button class="btn-header"><i class="fa-solid fa-phone" style="font-size:25px;color:#ffff"></i></button>
             <div class="num-hours-align">
             <div class="num">
@@ -39,6 +37,8 @@
         </div>
         </div>
     </header>
+<section> 
+<div class="top">   
     <div class="main-title">
     <br><br><div><h2 id="first-h2">We will create a beautiful yard for you</h2><br><br>
     <h2 id="second-h2"><span><h1>Surprise AZ Landscaping</h1></span> Provides<br> Landscaping Services That Are Beyond<br>Your Imagination</h2></div><br><br><br><br>
@@ -322,7 +322,7 @@
 
        <div class="w-e-column">
         <div class="w-e-column-1">
-            <i class="fa-solid fa-warehouse" style="font-size:28px;color:#9EC012;margin-right:10px;"></i><br><br>
+            <div class="w-e-icon"><i class="fa-solid fa-warehouse" style="font-size:28px;color:#9EC012;margin-right:10px;"></i></div><br><br>
             <div class="w-e-h2"><h2>
                 Our company was founded on honesty and integrity. Every certified professionals of our team is dedicated to dependability, quality, excellent job, and customer satisfaction. There's a reason why so many of our customers stick with us—and tell their friends! We have excellent reviews and a great reputation.<br><br>
                 
@@ -336,8 +336,8 @@
             </div>       
             </div>
 
-        <div class="w-e-column-1">
-            <i class="fa-regular fa-paper-plane" style="font-size:28px;color:#9EC012;margin-right:10px;"></i><br><br>
+        <div class="w-e-column-2">
+           <div class="w-e-icon"><i class="fa-regular fa-paper-plane" style="font-size:28px;color:#9EC012;margin-right:10px;"></i></div> <br><br>
             <div class="w-e-h2"><h2>
 
                 Having a worthwhile outdoor space is equivalent to adding a new room. You have all of this extra space to enjoy. Landscape enhancements such as outdoor fireplace, and pavers provide both ambiance and functionality. Our landscape designers pay attention to what you want. We can come look at the space and brainstorm ideas with you if you need extra space for exercise equipment, a yoga or meditation space, or more room for the kids to play.<br><br> 
@@ -367,7 +367,7 @@
 <footer>
     <div class="footer-top">
         <div class="footer-column">
-            <div class="footer-top-icon"><i class="fa-solid fa-phone-flip" style="color:white; font-size: 30px; text-align: center;"></i></div>
+            <div class="footer-top-icon"><a href="#"><i class="fa-solid fa-phone-flip" style="color:white; font-size: 30px; text-align: center;"></i></a></div>
             <div class="footer-top-content">
                 <h3><a href="#">Phone</a></h3>
                 <p>(623) 288-4340</p>
@@ -381,7 +381,7 @@
             </div>
         </div>
         <div class="footer-column">
-            <div class="footer-top-icon"><i class="fa-solid fa-map-location-dot" style="color:white; font-size: 30px; text-align: center;"></i></div>
+            <div class="footer-top-icon"><a href="#"><i class="fa-solid fa-map-location-dot" style="color:white; font-size: 30px; text-align: center;"></i></a></div>
             <div class="footer-top-content">
                 <h3><a href="#">Address</a></h3>
                 <p>Surprise Arizona ,USA.</p>
@@ -410,6 +410,6 @@
     </div>
 </footer>
     
-
+<script src="index.js"></script>
 </body>
 </html>

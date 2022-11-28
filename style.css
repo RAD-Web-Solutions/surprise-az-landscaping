@@ -23,13 +23,13 @@ time, mark, audio, video {
 
 .top{
     background: linear-gradient(#2e5b3d69, #2e5b3d77), url("./Images/background.jpg");
-    height: 1000px;
+    height: 1059px;
     width: 100%;
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-position: top;
     text-align: center;
     display: block;
+    margin-top: -212px;
 }
 
 #logo-img{
@@ -37,10 +37,22 @@ time, mark, audio, video {
     height: 110px;
 }
 
-header{
+.header{
     display: flex;
     align-items: center;
     justify-content:space-evenly;
+    z-index: 999;
+    transition: 0.5s ease;
+}
+
+.sticky{
+    position:sticky;
+    top: 0;
+}
+
+.active{
+    background-color: #1a3a28;
+    transition: 1.0s ease-in-out;
 }
 
 nav ul li{
@@ -126,7 +138,7 @@ nav ul li a:hover{
 .main-title{
     display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: center;
     flex-direction: column;
     height: 100%;
     width: 100%;
@@ -660,12 +672,53 @@ form{
 .w-e-column-1{
     width: 560px;
     height: 918px;
+    background: linear-gradient(#131413b2, #101110a2), url("./Images/first-image.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.w-e-column-1:hover{
+    background: linear-gradient(#2e5b3d69, #2e5b3d77), url("./Images/first-image.jpg");
+    background-position: center;
+    background-size: cover;
+    transition: 1.5s;
+}
+
+
+
+.w-e-column-2{
+    width: 560px;
+    height: 918px;
+    background: linear-gradient(#131413b2, #101110a2), url("./Images/second-image.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.w-e-column-2:hover{
+    background: linear-gradient(#2e5b3d69, #2e5b3d77), url("./Images/second-image.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
 .w-e-h2{
     width:500px ;
     height:810px ;
     line-height: 25px;
+    color: white;
+}
+
+.w-e-icon{
+    width: 500px;
+    height: 28px;
+    margin-bottom: 10px;
 }
 
 /* We Plan. We Design. We Install. Section */
