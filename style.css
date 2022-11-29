@@ -16,7 +16,6 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-    font-family:"Roboto Condensed",Sans-serif;
 }
 
 /*This is where your work starts */
@@ -66,7 +65,7 @@ nav ul li a{
     color: rgb(250, 248, 248);
     font-weight: 600;
     font-size: 16px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:sans-serif;
 }
 
 nav ul li a:hover{
@@ -102,11 +101,13 @@ nav ul li a:hover{
     text-align: center;
     font-weight: 600;
     font-size: 16px;
+    font-family:sans-serif;
 }
 
 .hours{
     font-weight: 600;
     font-size: 16px;
+    font-family:sans-serif;
 }
 
 /* Title Portion */
@@ -148,12 +149,18 @@ nav ul li a:hover{
     font-size: 25px;
     color: white;
     font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #second-h2{
-    font-size: 63px;
+    font-size: 50px;
     color: white;
     font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#second-h2 h1{
+    font-size: 63px;
 }
 
 span{
@@ -187,6 +194,7 @@ span{
     margin: 5px;
     font-size: 20px;
     font-weight: 700;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 .column-box-2{
@@ -201,6 +209,7 @@ span{
     border-radius: 10px;
     font-size: 20px;
     font-weight: 700;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 .column-box-img{
@@ -222,7 +231,7 @@ span{
 
 form{
     display: block;
-    width: 495px;
+    width: 465px;
     height: 832px;
     background-color:#6E3719;
     border-radius: 10px;
@@ -230,10 +239,17 @@ form{
     border: 3px solid #9ec012;
 }
 
+.form-heading{
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-weight: 800;
+}
+
 #form-heading{
     color: #FFFFFF;
     font-size: 20px;
     font-weight: 600;
+    font-family: sans-serif;
 }
 
 .check{
@@ -245,11 +261,13 @@ form{
     font-size: 15px;
     font-weight: 200px;
     color: #FFFFFF;
+    font-family: sans-serif;
 }
 
 .form-name{
     font-size: 18px;
     color: #FFFFFF;
+    font-family: sans-serif;
 }
 
 .text-form{
@@ -299,6 +317,7 @@ form{
     font-weight: 300;
     letter-spacing: 2.8px;
     color: #89b455;
+    font-family: sans-serif;
 }
 
 #surprise{
@@ -308,13 +327,15 @@ form{
     font-size: 34px;
     font-weight: bold;
     color: #000000;
+    font-family: sans-serif;
 }
 
 #story-content {
     width: 425px;
     height: 708px;
     margin-bottom: 20px;
-    font-size: 16px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 17px;
     font-weight: 400;
     line-height: 30px;
     color: #000000;
@@ -397,6 +418,7 @@ form{
     letter-spacing: 2.8px;
     width:475.8px;
     height: 16px;
+    font-family: sans-serif;
 }
 
 #h2-we{
@@ -405,18 +427,21 @@ form{
     font-weight: bold;
     line-height: 1.2em;
     padding-top: 10px;
+    font-family: sans-serif;
 }
 
 #strong-offer{
     font-weight: bolder;
     font-size: 20px;
+    font-family: sans-serif;
 }
 
 #ul li{
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     color: #000000;
     line-height: 25px;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 #ul{
@@ -425,10 +450,11 @@ form{
 }
 
 .service-content{
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     color: #000000;
     line-height: 25px;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 /* Service Columns */
@@ -481,6 +507,7 @@ form{
     color: #FFFFFF;
     text-decoration: none;
     font-size: 20px;
+    font-family: sans-serif;
 }
 
 .sc-1:hover{
@@ -522,6 +549,7 @@ form{
     font-size: 29px;
     color: #ffffff;
     stroke: #000;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 #quote-h3{
@@ -530,6 +558,7 @@ form{
     font-weight: 300;
     letter-spacing: 2.8px;
     text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 .quote-h2{
@@ -559,6 +588,7 @@ form{
     color: #000000;
     font-weight: 800;
     font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 .c-u-column-1{
@@ -591,12 +621,14 @@ form{
     font-weight: 600;
     color: #9EC012;
     margin-bottom: 20px;
+    font-family:'Times New Roman', Times, serif
 }
 
 .c-u-p{
     font-size: 15px;
     font-weight: 400;
     line-height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Guidelines for our Services */
@@ -627,11 +659,13 @@ form{
     font-weight: 400;
     line-height: 30px;
     padding-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #g-s-heading{
     font-size: 32px;
     font-weight: 800;
+    font-family: default;
 }
 
 .g-s-heading{
@@ -713,6 +747,8 @@ form{
     height:810px ;
     line-height: 25px;
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
 }
 
 .w-e-icon{
@@ -809,6 +845,7 @@ form{
     line-height: 30px;
     font-size: 16px;
     font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .footer-bottom{
@@ -851,6 +888,8 @@ form{
     text-decoration: none;
     color:#9EC012;
     font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
 }
 
 #quick{
@@ -877,4 +916,5 @@ form{
     font-size: 15px;
     font-weight: 600;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
