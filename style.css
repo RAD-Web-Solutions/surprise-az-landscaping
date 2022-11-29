@@ -62,10 +62,11 @@ nav ul li a{
     text-decoration: none;
     list-style: none;
     padding: 9px;
-    color: rgb(250, 248, 248);
+    color: white;
     font-weight: 600;
     font-size: 16px;
     font-family:sans-serif;
+    letter-spacing: -0.8px;
 }
 
 nav ul li a:hover{
@@ -145,17 +146,27 @@ nav ul li a:hover{
     width: 100%;
 }
 
+.main-title-div{
+    width: 890.91px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
 #first-h2{
     font-size: 25px;
     color: white;
-    font-weight: 600;
-    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 3px;
 }
 
 #second-h2{
     font-size: 50px;
     color: white;
     font-weight: 600;
+    line-height: 70px;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -305,7 +316,7 @@ form{
 }
 
 .story{
-    width: 495px;
+    width: 570px;
     height: 953px;
 }
 
@@ -313,7 +324,7 @@ form{
     width: 425px;
     height: 1px;
     margin-bottom: 20px;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 300;
     letter-spacing: 2.8px;
     color: #89b455;
@@ -321,20 +332,19 @@ form{
 }
 
 #surprise{
-    width: 425px;
+    width: 500px;
     height: 46px;
     margin-bottom: 20px;
-    font-size: 34px;
+    font-size: 36px;
     font-weight: bold;
     color: #000000;
     font-family: sans-serif;
 }
 
 #story-content {
-    width: 425px;
+    width: 500px;
     height: 708px;
-    margin-bottom: 20px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 17px;
     font-weight: 400;
     line-height: 30px;
@@ -412,7 +422,7 @@ form{
 }
 
 #service{
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 300;
     color: #89b455;
     letter-spacing: 2.8px;
@@ -427,21 +437,22 @@ form{
     font-weight: bold;
     line-height: 1.2em;
     padding-top: 10px;
-    font-family: sans-serif;
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing: -1px;
 }
 
 #strong-offer{
-    font-weight: bolder;
-    font-size: 20px;
-    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #ul li{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     color: #000000;
     line-height: 25px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #ul{
@@ -450,11 +461,13 @@ form{
 }
 
 .service-content{
-    font-size: 18px;
+    width: 475.8px;
+    height: 150px;
+    font-size: 16px;
     font-weight: 400;
     color: #000000;
     line-height: 25px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* Service Columns */
@@ -506,8 +519,8 @@ form{
 .content-h3 a{
     color: #FFFFFF;
     text-decoration: none;
-    font-size: 20px;
-    font-family: sans-serif;
+    font-size: 18px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .sc-1:hover{
@@ -554,11 +567,16 @@ form{
 
 #quote-h3{
     color: #ffffff;
-    font-size: 19px;
-    font-weight: 300;
+    font-size: 15px;
+    font-weight: 400;
     letter-spacing: 2.8px;
     text-align: center;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.quote-h3{
+    width: 910px;
+    height: 92px;
 }
 
 .quote-h2{
@@ -619,16 +637,17 @@ form{
 .c-u-h3{
     font-size: 24px;
     font-weight: 600;
+    letter-spacing: -2px;
     color: #9EC012;
     margin-bottom: 20px;
-    font-family:'Times New Roman', Times, serif
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 .c-u-p{
     font-size: 15px;
     font-weight: 400;
-    line-height: 25px;
-    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* Guidelines for our Services */
@@ -659,7 +678,7 @@ form{
     font-weight: 400;
     line-height: 30px;
     padding-top: 15px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #g-s-heading{
