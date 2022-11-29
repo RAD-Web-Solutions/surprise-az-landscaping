@@ -22,7 +22,7 @@ time, mark, audio, video {
 /*This is where your work starts */
 
 .top{
-    background: linear-gradient(#2e5b3d69, #2e5b3d77), url("./Images/background.jpg");
+    background: linear-gradient(#2e5b3d69, #2e5b3d77), url("./images/background.jpg");
     height: 1059px;
     width: 100%;
     background-size: cover;
@@ -42,7 +42,6 @@ time, mark, audio, video {
     align-items: center;
     justify-content:space-evenly;
     z-index: 999;
-    transition: 0.5s ease;
 }
 
 .sticky{
@@ -52,7 +51,8 @@ time, mark, audio, video {
 
 .active{
     background-color: #1a3a28;
-    transition: 1.0s ease-in-out;
+    transition: 1.0s ease-in;
+    transition: 1.0s ease-out;
 }
 
 nav ul li{
@@ -506,7 +506,7 @@ form{
 /* Quote Section */
 
 .quote-sec{
-    background: linear-gradient(#00000085, #0000007a), url("./Images/splash.jpg"); 
+    background: linear-gradient(#00000085, #0000007a), url("./images/splash.jpg"); 
     width: 100%;
     height: 371px;
     position: relative;
@@ -672,7 +672,7 @@ form{
 .w-e-column-1{
     width: 560px;
     height: 918px;
-    background: linear-gradient(#131413b2, #101110a2), url("./Images/first-image.jpg");
+    background: linear-gradient(#131413b2, #101110a2), url("./images/first-image.jpg");
     background-position: center;
     background-size: cover;
     display: flex;
@@ -682,7 +682,7 @@ form{
 }
 
 .w-e-column-1:hover{
-    background: linear-gradient(#2e5b3d69, #2e5b3d77), url("./Images/first-image.jpg");
+    background: linear-gradient(#2e5b3d69, #2e5b3d77), url("./images/first-image.jpg");
     background-position: center;
     background-size: cover;
     transition: 1.5s;
@@ -693,7 +693,7 @@ form{
 .w-e-column-2{
     width: 560px;
     height: 918px;
-    background: linear-gradient(#131413b2, #101110a2), url("./Images/second-image.jpg");
+    background: linear-gradient(#131413b2, #101110a2), url("./images/second-image.jpg");
     background-position: center;
     background-size: cover;
     display: flex;
@@ -703,7 +703,7 @@ form{
 }
 
 .w-e-column-2:hover{
-    background: linear-gradient(#2e5b3d69, #2e5b3d77), url("./Images/second-image.jpg");
+    background: linear-gradient(#2e5b3d69, #2e5b3d77), url("./images/second-image.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -729,14 +729,16 @@ form{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .w-w-w-s-heading{
     width: 100%;
-    height: 32px;
+    height: 30px;
     text-align: center;
-    font-size: 32px;
-    font-weight: 800;
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 /* Footer Top */
@@ -798,6 +800,7 @@ form{
     align-items: center;
     justify-content: center;
     padding-bottom: 20px;
+    cursor: pointer;
 }
 
 .footer-bottom-column-content{
@@ -856,3 +859,22 @@ form{
     font-weight: 600;
 }
 
+/* All Rights Reserved Section */
+
+.a-r-r-section{
+    width: 100%;
+    height: 50px;
+    background-color:#000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.a-r-r-column{
+    width: 1080.8px;
+    height: 15px;
+    color: #686868;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+}
