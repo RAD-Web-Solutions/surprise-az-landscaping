@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <script src="https://kit.fontawesome.com/0c9e1858e3.js" crossorigin="anonymous"></script>
+    <script src="header.js"></script>
+    <title>Contact Us</title>
+</head>
+
+<body>
+    <header-component></header-component>
+    <section>
+      <div class="first-section-container">
+
+        <div class="first-section-div">
+
+            <div class="h1-heading"><h1 id="h1-heading">Surprise AZ Landscaping</h1></div>
+            <div class="h2-loc"><h2 id="h2-loc">Surprise Arizona, USA</h2></div>
+            <div class="h2-tel"><h2 id="h2-tel">(623) 288-4340</h2></div>
+
+            <div class="btn-first-container">
+              <div class="btn-first"><button class="btn-title"><i class="fa-solid fa-phone" style="font-size:15px;color:#ffff;padding-right:10px;"></i>  CALL US NOW!</button></div>
+              <div class="btn-second"><button class="btn-title">GET A FREE QUOTE</button></div>
+            </div>
+        
+        </div>
+
+      </div>
+    </section>
+
+    <!--Second Section-->
+
+    <section>
+
+          <div class="second-section-container">
+
+             <div class="h2-second-con"><h2 id="h2-second-con">Contact Us</h2></div>
+
+             <div class="divider"></div>
+          
+             <div class="second-div-container">
+             
+             <div class="h2-second-get-p">
+                
+              <div class="h2-second-get"><h2 id="h2-second-get">Get in touch</h2></div>
+
+              <div class="p-second"><p id="p-second">Thank you for visiting Surprise AZ Landscaping. Please fill out the form and we will get back to you as soon as possible or contact us at <span>(623) 288-4340</span>. As a company rooted in scientific expertise, we adhere to all local and state government mandates, as well as guidelines and other health authorities. We have procedures in place to prevent the spread of COVID-19 while minimizing service disruption.</p></div>
+
+             </div>
+
+             <div class="second-column-div">
+
+                <div class="h3-second-get"><h3 id="h3-second-get">Get Free Quote!</h3></div>
+
+                <div><form>
+                    <h2 id="form-heading">Landscape Services</h2><br>
+                        <input type="checkbox" class="check" id="turf" name="turf" value="Installation">
+                        <label for="turf" class="form-label">Turf Installation</label><br>
+                        <input type="checkbox" class="check" id="gravel" name="gavel" value="rock">
+                        <label for="gravel" class="form-label">Gravel & Rock Installation</label><br>
+                        <input type="checkbox" class="check" id="paver" name="paver" value="Paver Installation">
+                        <label for="paver" class="form-label">Paver Installation</label><br>
+                        <input type="checkbox" class="check" id="Irrigation" name="Irrigation" value="System">
+                        <label for="Irrigation" class="form-label">Irrigation System Installation</label><br>
+                        <input type="checkbox" class="check" id="landscape" name="landscape" value="Design">
+                        <label for="landscape" class="form-label">Landscape Design</label><br>
+                        <input type="checkbox" class="check" id="other" name="other" value="others">
+                        <label for="other" class="form-label">Other</label><br><br>
+    
+                        <h2 id="form-heading">When do you need the service?</h2><br>
+                        <input type="radio" class="check" id="asap" name="asap" value="asap">
+                        <label for="asap" class="form-label">ASAP</label><br><br>
+                        <input type="radio" class="check" id="week" name="asap" value="week">
+                        <label for="week" class="form-label">This Week</label><br><br>
+                        <input type="radio" class="check" id="flexible" name="asap" value="flexible">
+                        <label for="flexible" class="form-label">Flexible</label><br><br>
+    
+                        <label for="name" class="form-name">Name:</label><br><br>
+                        <input type="text" id="name" name="name" class="text-form" placeholder="  Full Name"><br><br>
+                        <label for="phone" class="form-name" >Phone:</label><br><br>
+                        <input type="text" id="phone" name="phone" class="text-form" placeholder="  Phone" ><br><br>
+                        <label for="email" class="form-name" >Email Address:</label><br><br>
+                        <input type="text" id="email" name="email" class="text-form" placeholder="  Email" ><br><br><br>
+                        <div id="button-form"><button class="button-form">Submit</button></div>
+                </form></div>
+
+            </div>
+
+             </div>
+
+          </div> 
+
+    </section>
+
+    <!--Third Section-->
+
+    <section>
+      <div id="googleMap" style="width:100%;height:400px;"></div>
+
+<script>
+function myMap() {
+var mapProp= {
+  center:new google.maps.LatLng(51.508742,-0.120850),
+  zoom:5,
+};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+
+    </section>
+    
+</body>
+</html>
