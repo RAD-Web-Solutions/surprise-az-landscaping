@@ -278,7 +278,7 @@ form{
 }
 
 .second-div-container{
-    padding-top: 150px;
+    padding-top: 120px;
 }
 
 .h2-second-get-p{
@@ -291,3 +291,20 @@ form{
 
 /* Third Section */
 
+.mapouter{
+    position:relative;
+    text-align:right;
+    width:2048px;
+    height:400px;
+    margin-top: 200px;
+}
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    width:2048px;
+    height:400px;
+}
+.gmap_iframe {
+    width:2048px!important;
+    height:400px!important;
+}
