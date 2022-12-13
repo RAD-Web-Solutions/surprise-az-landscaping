@@ -23,11 +23,12 @@ time, mark, audio, video {
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 599.42px;
+    height: 699.42px;
     display: flex;
     flex-direction: column;
     justify-content:center;
     align-items:center;
+    margin-top: -140px;
 }
 
 .main-title-h2{

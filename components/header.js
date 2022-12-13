@@ -91,11 +91,11 @@ class Header extends HTMLElement {
     <img id="logo-img" src="https://surpriseazlandscaping.net/wp-content/uploads/2022/04/Dark-Green-Circle-Landscaping-Logo-768x768.png.webp"></div>
     <nav>
         <ul>
-                <li><a href="#">Home</a></li>
+                <li><a href="http://127.0.0.1:3002/surprise-az-landscaping/index.html">Home</a></li>
                 <li><a href="#">Services</a></li>
                 <li><a href="#">Blog</a></li>
-                <li><a href="aboutus.html">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="http://127.0.0.1:3002/surprise-az-landscaping/aboutus.html">About</a></li>
+                <li><a href="http://127.0.0.1:3002/surprise-az-landscaping/contact.html">Contact</a></li>
                 <li><a href="#">Location</a></li>
         </ul>
     </nav>
