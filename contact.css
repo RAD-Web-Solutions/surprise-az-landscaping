@@ -27,6 +27,7 @@ time, mark, audio, video {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: -140px;
 }
 
 .first-section-div{
