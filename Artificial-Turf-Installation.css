@@ -1,0 +1,189 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+}
+
+.container{
+    background: linear-gradient(#00000069, #00000077), url("./images/Artificial-Turf-Installation.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 920px;
+    width: 100%;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -134px;
+}
+
+.column{
+    width: 1140px;
+    height: 512px;
+    display: flex;
+    justify-content: start;
+    align-items: flex-end;
+}
+
+#h2-first-section{
+    color: #1A3A28;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 62px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.column-box{
+    background-color: white;
+    width: 740px;
+    height: 229px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 2nd Section */
+
+.second-container{
+    height: 564px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-column{
+    width: 1120px;
+    height: 544px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#second-column-img{
+    width: 968px;
+    height: 544px;
+}
+
+/* Third Section */
+
+.third-container{
+    width: 100%;
+    height: 402px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-column{
+    width: 1125px;
+    height: 382px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.third-p{
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 30px;
+    width: 925px;
+    height: 90px;
+    text-align: justify;
+}
+
+/* Fourth Section */
+
+.fourth-container{
+    width: 100%;
+    height: 726px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth-column{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.left-box{
+    width: 590px;
+    height: 400px;
+    margin-top: 30px;
+    margin-right: -42px;
+    z-index: 1;
+}
+
+#fourth-column-img{
+    width: 590px;
+    height: 400px;
+}
+
+.right-box{
+    width: 570px;
+    height: 626px;
+    background-color: #9EC012;
+}
+
+#right-box-h2{
+    width: 550px;
+    height: 84px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-box-content{
+    width: 550px;
+    height: 510px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+#box-h2{
+    color: #000000;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.content-ul{
+    padding-left: 20px;
+    width: 450px;
+    height: 210px;
+    line-height: 30px;
+    font-weight: 500;
+    font-size: 18px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.right-box-p{
+    text-align: left;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px; 
+    line-height: 26px;
+    width: 450px;
+    height: 90px;
+    padding-top: 20px;
+}
