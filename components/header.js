@@ -106,7 +106,7 @@ class Header extends HTMLElement {
       background-color: #f9f9f9;
       min-width: 160px;
       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-      z-index: 1;
+      z-index: 1; 
     }
 
     .dropdown-content a {
@@ -135,7 +135,7 @@ class Header extends HTMLElement {
     <nav>
         <ul>
                 <li><a href="index.html">Home</a></li>
-                <li class="dropdown"><a href="#">Services</a>
+                <li class="dropdown"><a href="#">Services <i class="fa fa-caret-down"></i></a>
                 <div class="dropdown-content">
                 <a href="Artificial-Turf-Installation.html">Artificial Turf Installation</a>
                 <a href="BackyardLandscaping.html">Backyard Landscaping</a>
