@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="components/header.js" type="text/javascript" defer></script>
+    <script src="components/footer.js" type="text/javascript" defer></script>
     <title>Surprise AZ Landscaping</title>
     <link rel="shortcut icon" type="image/png" href="./img/favicon.png">
     <script src="https://kit.fontawesome.com/0c9e1858e3.js" crossorigin="anonymous"></script>
@@ -14,31 +16,7 @@
     
     <!-- Top Class -->
 
-<header class=header id="myHeader">
-    <div class="logo-img">        
-    <img id="logo-img" src="https://surpriseazlandscaping.net/wp-content/uploads/2022/04/Dark-Green-Circle-Landscaping-Logo-768x768.png.webp"></div>
-    <nav>
-        <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="aboutus.html">About</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Location</a></li>
-        </ul>
-    </nav>
-    <div class="num-hours">
-            <button class="btn-header"><i class="fa-solid fa-phone" style="font-size:25px;color:#ffff"></i></button>
-            <div class="num-hours-align">
-            <div class="num">
-                <h2><b>(623) 288-4340</b><h2>
-            </div>
-            <div class="hours">
-               <h2><b>Mon-Fri: 8:00 am – 5:00 pm</b></h2>
-            </div>
-        </div>
-        </div>
-    </header>
+<header-component></header-component>
 
 
 <section> 
@@ -368,60 +346,8 @@
     </div>
 </section>
 
-<footer>
-    <div class="footer-top">
-        <div class="footer-column">
-            <div class="footer-top-icon"><a href="#"><i class="fa-solid fa-phone-flip" style="color:white; font-size: 30px; text-align: center;"></i></a></div>
-            <div class="footer-top-content">
-                <h3><a href="#">Phone</a></h3>
-                <p>(623) 288-4340</p>
-            </div>
-        </div>
-        <div class="footer-column">
-            <div class="footer-top-icon"><i class="fa-solid fa-clock" style="color:white; font-size: 30px; text-align: center;"></i></div>
-            <div class="footer-top-content">
-                <h3><a href="#">Office Hours</a></h3>
-                <p>Monday to Friday: 8:00 am - 5:00 pm</p>
-            </div>
-        </div>
-        <div class="footer-column">
-            <div class="footer-top-icon"><a href="#"><i class="fa-solid fa-map-location-dot" style="color:white; font-size: 30px; text-align: center;"></i></a></div>
-            <div class="footer-top-content">
-                <h3><a href="#">Address</a></h3>
-                <p>Surprise Arizona ,USA.</p>
-            </div>
-        </div>
-    </div>
 
-<!--Bottom Footer--> 
-
-    <div class="footer-bottom">
-        <div class="footer-bottom-column">
-           <div class="logo"><img src="https://surpriseazlandscaping.net/wp-content/uploads/elementor/thumbs/Surprise-Az-Landscaping-Logo-pxs28c93yfm3typp4bho3djtnw17i29wl0aevtdds0.png"></div>
-           <div class="footer-bottom-column-content"><p>Let’s make the grass on your side of the fence always greener. We are a Landscaping Company, providing all you need for Landscaping and Landscape Design to build the yard of your dreams. We bring our experience, and our eye for design, to your backyard or commercial property. We can help you keep your yard healthy and looking great.</p></div> 
-        </div>
-
-        <div class="footer-bottom-column-2">
-            <h2 id="quick">Quicklinks</h2>
-            <ul>
-                <li><a href="http://127.0.0.1:3002/surprise-az-landscaping/index.html">Home</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="http://127.0.0.1:3002/surprise-az-landscaping/aboutus.html">About</a></li>
-                <li><a href="http://127.0.0.1:3002/surprise-az-landscaping/contact.html">Contact</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-            </ul>
-        </div>
-    </div>
-
-    <!--All Rights Reserved-->
-
-    <div class="a-r-r-section">
-        <div class="a-r-r-column">
-            <h2>© ALL RIGHTS RESERVED 2022, SURPRISE AZ LANDSCAPING</h2>
-        </div>
-    </div>
-</footer>
-
+<footer-component></footer-component>
    
 <script src="index.js"></script>
 </body>

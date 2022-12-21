@@ -85,17 +85,72 @@ class Header extends HTMLElement {
         font-size: 16px;
         font-family:sans-serif;
     }
+
+    .dropdown-content a{
+      float: left;
+      font-size: 16px;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    .dropdown{
+      display:inline;
+      overflow: hidden;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      float: none;
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+
+    .dropdown-content a:hover {
+      background-color: brown;
+      color:#9EC012;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
       </style>
+
       <header class=header id="myHeader">
     <div class="logo-img">        
     <img id="logo-img" src="https://surpriseazlandscaping.net/wp-content/uploads/2022/04/Dark-Green-Circle-Landscaping-Logo-768x768.png.webp"></div>
     <nav>
         <ul>
-                <li><a href="http://127.0.0.1:3002/surprise-az-landscaping/index.html">Home</a></li>
-                <li><a href="#">Services</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown"><a href="#">Services</a>
+                <div class="dropdown-content">
+                <a href="Artificial-Turf-Installation.html">Artificial Turf Installation</a>
+                <a href="BackyardLandscaping.html">Backyard Landscaping</a>
+                <a href="Hardscaping.html">Hardscaping</a>
+                <a href="Irrigation-System-Installation.html">Irrigation System Installation</a>
+                <a href="LandscapeDesign.html">Landscape Design</a>
+                <a href="Outdoor.html">Outdoor Step Construction</a>
+                <a href="RetainingWalls.html">Retaining Walls</a>
+                <a href="RockLandscaping.html">Rock Landscaping</a>
+                <a href="WalkwayLandscaping.html">Walkway Landscaping</a>
+                </div>
+                </li>
                 <li><a href="#">Blog</a></li>
-                <li><a href="http://127.0.0.1:3002/surprise-az-landscaping/aboutus.html">About</a></li>
-                <li><a href="http://127.0.0.1:3002/surprise-az-landscaping/contact.html">Contact</a></li>
+                <li><a href="aboutus.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
                 <li><a href="#">Location</a></li>
         </ul>
     </nav>
